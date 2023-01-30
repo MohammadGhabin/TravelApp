@@ -1,0 +1,103 @@
+edu/birzeit/DataBaseHelper.java
+ edu.birzeit.DataBaseHelper
+edu/birzeit/ui/destinationMenu/DestinationMenuViewModel.java
+ edu.birzeit.ui.destinationMenu.DestinationMenuViewModel
+edu/birzeit/ui/callUs/CallUsViewModel.java
+ edu.birzeit.ui.callUs.CallUsViewModel
+edu/birzeit/ui/favorites/favoritesViewModel.java
+ edu.birzeit.ui.favorites.favoritesViewModel
+edu/birzeit/Customer.java
+ edu.birzeit.Customer
+edu/birzeit/ui/reservations/ReservationsViewModel.java
+ edu.birzeit.ui.reservations.ReservationsViewModel
+edu/birzeit/ui/home/HomeViewModel.java
+ edu.birzeit.ui.home.HomeViewModel
+edu/birzeit/ui/profile/ProfileViewModel.java
+ edu.birzeit.ui.profile.ProfileViewModel
+edu/birzeit/DestinationActivitiesJsonParser.java
+ edu.birzeit.DestinationActivitiesJsonParser
+edu/birzeit/BuildConfig.java
+ edu.birzeit.BuildConfig
+edu/birzeit/ConnectionAsyncTask.java
+ edu.birzeit.ConnectionAsyncTask
+edu/birzeit/DestinationActivity.java
+ edu.birzeit.DestinationActivity
+edu/birzeit/HttpManager.java
+ edu.birzeit.HttpManager
+edu/birzeit/LoginFragment.java
+ edu.birzeit.LoginFragment
+ edu.birzeit.LoginFragment$1
+ edu.birzeit.LoginFragment$2
+edu/birzeit/RegisterFragment.java
+ edu.birzeit.RegisterFragment
+ edu.birzeit.RegisterFragment$1
+ edu.birzeit.RegisterFragment$2
+ edu.birzeit.RegisterFragment$3
+edu/birzeit/databinding/ActivityMainBinding.java
+ edu.birzeit.databinding.ActivityMainBinding
+edu/birzeit/ui/favorites/favoritesFragment.java
+ edu.birzeit.ui.favorites.favoritesFragment
+ edu.birzeit.ui.favorites.favoritesFragment$1
+edu/birzeit/ui/profile/ProfileFragment.java
+ edu.birzeit.ui.profile.ProfileFragment
+ edu.birzeit.ui.profile.ProfileFragment$1
+ edu.birzeit.ui.profile.ProfileFragment$2
+ edu.birzeit.ui.profile.ProfileFragment$3
+ edu.birzeit.ui.profile.ProfileFragment$4
+ edu.birzeit.ui.profile.ProfileFragment$5
+edu/birzeit/databinding/FragmentDestinationBinding.java
+ edu.birzeit.databinding.FragmentDestinationBinding
+edu/birzeit/MainActivity.java
+ edu.birzeit.MainActivity
+ edu.birzeit.MainActivity$1
+edu/birzeit/ui/callUs/CallUsFragment.java
+ edu.birzeit.ui.callUs.CallUsFragment
+ edu.birzeit.ui.callUs.CallUsFragment$1
+ edu.birzeit.ui.callUs.CallUsFragment$2
+ edu.birzeit.ui.callUs.CallUsFragment$3
+ edu.birzeit.ui.callUs.CallUsFragment$4
+edu/birzeit/databinding/FragmentDestinationmenuBinding.java
+ edu.birzeit.databinding.FragmentDestinationmenuBinding
+edu/birzeit/databinding/AppBarMainBinding.java
+ edu.birzeit.databinding.AppBarMainBinding
+edu/birzeit/databinding/NavHeaderMainBinding.java
+ edu.birzeit.databinding.NavHeaderMainBinding
+edu/birzeit/NavigationDrawerActivity.java
+ edu.birzeit.NavigationDrawerActivity
+edu/birzeit/databinding/FragmentRegisterBinding.java
+ edu.birzeit.databinding.FragmentRegisterBinding
+edu/birzeit/databinding/FragmentLoginBinding.java
+ edu.birzeit.databinding.FragmentLoginBinding
+edu/birzeit/databinding/FragmentFavoritesBinding.java
+ edu.birzeit.databinding.FragmentFavoritesBinding
+edu/birzeit/ui/home/HomeFragment.java
+ edu.birzeit.ui.home.HomeFragment
+ edu.birzeit.ui.home.HomeFragment$MyAdapter
+edu/birzeit/ui/destinationMenu/DestinationMenuFragment.java
+ edu.birzeit.ui.destinationMenu.DestinationMenuFragment
+ edu.birzeit.ui.destinationMenu.DestinationMenuFragment$1
+ edu.birzeit.ui.destinationMenu.DestinationMenuFragment$MyAdapter
+edu/birzeit/databinding/ContentMainBinding.java
+ edu.birzeit.databinding.ContentMainBinding
+edu/birzeit/ui/reservations/ReservationsFragment.java
+ edu.birzeit.ui.reservations.ReservationsFragment
+ edu.birzeit.ui.reservations.ReservationsFragment$1
+ edu.birzeit.ui.reservations.ReservationsFragment$2
+ edu.birzeit.ui.reservations.ReservationsFragment$3
+ edu.birzeit.ui.reservations.ReservationsFragment$MyAdapter
+edu/birzeit/databinding/FragmentHomeBinding.java
+ edu.birzeit.databinding.FragmentHomeBinding
+edu/birzeit/databinding/RowBinding.java
+ edu.birzeit.databinding.RowBinding
+edu/birzeit/databinding/FragmentCallUsBinding.java
+ edu.birzeit.databinding.FragmentCallUsBinding
+edu/birzeit/LoginRegistrationActivity.java
+ edu.birzeit.LoginRegistrationActivity
+edu/birzeit/databinding/ActivityNavigationDrawerBinding.java
+ edu.birzeit.databinding.ActivityNavigationDrawerBinding
+edu/birzeit/databinding/FragmentReservationsBinding.java
+ edu.birzeit.databinding.FragmentReservationsBinding
+edu/birzeit/databinding/FragmentProfileBinding.java
+ edu.birzeit.databinding.FragmentProfileBinding
+edu/birzeit/databinding/ActivityLoginregistrationBinding.java
+ edu.birzeit.databinding.ActivityLoginregistrationBinding
