@@ -12,6 +12,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import edu.birzeit.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -80,7 +81,7 @@ public final class FragmentLoginBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.emailLoginEditText;
-      EditText emailLoginEditText = rootView.findViewById(id);
+      EditText emailLoginEditText = ViewBindings.findChildViewById(rootView, id);
       if (emailLoginEditText == null) {
         break missingId;
       }
@@ -88,25 +89,25 @@ public final class FragmentLoginBinding implements ViewBinding {
       FrameLayout fragmentLogin = (FrameLayout) rootView;
 
       id = R.id.goToRegisterPageTextView;
-      TextView goToRegisterPageTextView = rootView.findViewById(id);
+      TextView goToRegisterPageTextView = ViewBindings.findChildViewById(rootView, id);
       if (goToRegisterPageTextView == null) {
         break missingId;
       }
 
       id = R.id.loginButton;
-      Button loginButton = rootView.findViewById(id);
+      Button loginButton = ViewBindings.findChildViewById(rootView, id);
       if (loginButton == null) {
         break missingId;
       }
 
       id = R.id.passwordLoginEditText;
-      EditText passwordLoginEditText = rootView.findViewById(id);
+      EditText passwordLoginEditText = ViewBindings.findChildViewById(rootView, id);
       if (passwordLoginEditText == null) {
         break missingId;
       }
 
       id = R.id.rememberMeCheckBox;
-      CheckBox rememberMeCheckBox = rootView.findViewById(id);
+      CheckBox rememberMeCheckBox = ViewBindings.findChildViewById(rootView, id);
       if (rememberMeCheckBox == null) {
         break missingId;
       }

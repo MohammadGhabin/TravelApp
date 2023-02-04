@@ -9,6 +9,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import edu.birzeit.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -59,13 +60,13 @@ public final class RowBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.textView1;
-      TextView textView1 = rootView.findViewById(id);
+      TextView textView1 = ViewBindings.findChildViewById(rootView, id);
       if (textView1 == null) {
         break missingId;
       }
 
       id = R.id.textView2;
-      TextView textView2 = rootView.findViewById(id);
+      TextView textView2 = ViewBindings.findChildViewById(rootView, id);
       if (textView2 == null) {
         break missingId;
       }

@@ -12,6 +12,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import edu.birzeit.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -123,97 +124,97 @@ public final class FragmentProfileBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.LogoutButton;
-      Button LogoutButton = rootView.findViewById(id);
+      Button LogoutButton = ViewBindings.findChildViewById(rootView, id);
       if (LogoutButton == null) {
         break missingId;
       }
 
       id = R.id.newConfirmPasswordText;
-      EditText newConfirmPasswordText = rootView.findViewById(id);
+      EditText newConfirmPasswordText = ViewBindings.findChildViewById(rootView, id);
       if (newConfirmPasswordText == null) {
         break missingId;
       }
 
       id = R.id.newFirstNameText;
-      EditText newFirstNameText = rootView.findViewById(id);
+      EditText newFirstNameText = ViewBindings.findChildViewById(rootView, id);
       if (newFirstNameText == null) {
         break missingId;
       }
 
       id = R.id.newLastNameText;
-      EditText newLastNameText = rootView.findViewById(id);
+      EditText newLastNameText = ViewBindings.findChildViewById(rootView, id);
       if (newLastNameText == null) {
         break missingId;
       }
 
       id = R.id.newPasswordText;
-      EditText newPasswordText = rootView.findViewById(id);
+      EditText newPasswordText = ViewBindings.findChildViewById(rootView, id);
       if (newPasswordText == null) {
         break missingId;
       }
 
       id = R.id.newPhoneText;
-      EditText newPhoneText = rootView.findViewById(id);
+      EditText newPhoneText = ViewBindings.findChildViewById(rootView, id);
       if (newPhoneText == null) {
         break missingId;
       }
 
       id = R.id.saveChangesBTN;
-      Button saveChangesBTN = rootView.findViewById(id);
+      Button saveChangesBTN = ViewBindings.findChildViewById(rootView, id);
       if (saveChangesBTN == null) {
         break missingId;
       }
 
       id = R.id.spinnerGender;
-      Spinner spinnerGender = rootView.findViewById(id);
+      Spinner spinnerGender = ViewBindings.findChildViewById(rootView, id);
       if (spinnerGender == null) {
         break missingId;
       }
 
       id = R.id.text_profile;
-      TextView textProfile = rootView.findViewById(id);
+      TextView textProfile = ViewBindings.findChildViewById(rootView, id);
       if (textProfile == null) {
         break missingId;
       }
 
       id = R.id.textView;
-      TextView textView = rootView.findViewById(id);
+      TextView textView = ViewBindings.findChildViewById(rootView, id);
       if (textView == null) {
         break missingId;
       }
 
       id = R.id.textView10;
-      TextView textView10 = rootView.findViewById(id);
+      TextView textView10 = ViewBindings.findChildViewById(rootView, id);
       if (textView10 == null) {
         break missingId;
       }
 
       id = R.id.textView11;
-      TextView textView11 = rootView.findViewById(id);
+      TextView textView11 = ViewBindings.findChildViewById(rootView, id);
       if (textView11 == null) {
         break missingId;
       }
 
       id = R.id.textView7;
-      TextView textView7 = rootView.findViewById(id);
+      TextView textView7 = ViewBindings.findChildViewById(rootView, id);
       if (textView7 == null) {
         break missingId;
       }
 
       id = R.id.textView8;
-      TextView textView8 = rootView.findViewById(id);
+      TextView textView8 = ViewBindings.findChildViewById(rootView, id);
       if (textView8 == null) {
         break missingId;
       }
 
       id = R.id.textView9;
-      TextView textView9 = rootView.findViewById(id);
+      TextView textView9 = ViewBindings.findChildViewById(rootView, id);
       if (textView9 == null) {
         break missingId;
       }
 
       id = R.id.viewAllBTN;
-      Button viewAllBTN = rootView.findViewById(id);
+      Button viewAllBTN = ViewBindings.findChildViewById(rootView, id);
       if (viewAllBTN == null) {
         break missingId;
       }

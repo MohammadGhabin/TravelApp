@@ -6,11 +6,9 @@ import android.database.Cursor;
 import android.database.SQLException;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
-
 import androidx.annotation.Nullable;
 
 public class DataBaseHelper extends SQLiteOpenHelper {
-
     private final String DATABASE_NAME = "BZU";
     private final String TABLE_NAME = "Customer";
     private final String COLUMN1 = "email";
@@ -64,13 +62,11 @@ public class DataBaseHelper extends SQLiteOpenHelper {
 
     public Cursor getDataLoginFromDB(String email, String password) {
         SQLiteDatabase sqLiteDatabase = getReadableDatabase();
-        //return sqLiteDatabase.rawQuery("select * from customer where email = " + email + "and password = " + password, null);
         return sqLiteDatabase.rawQuery("select * from Customer where email=\'" + email + "\' and password=\'" + password +"\'", null);
     }
 
     public Cursor getEmailFromDB(String email) {
         SQLiteDatabase sqLiteDatabase = getReadableDatabase();
-        //return sqLiteDatabase.rawQuery("select * from customer where email = " + email + "and password = " + password, null);
         return sqLiteDatabase.rawQuery("select * from Customer where email=\'" + email + "\'", null);
     }
 
@@ -84,7 +80,6 @@ public class DataBaseHelper extends SQLiteOpenHelper {
         contentValues.put(COLUMN5,password);
         contentValues.put(COLUMN6,phone);
         sqLiteDatabase.update(TABLE_NAME,contentValues, "email = ?", new String[] {email} );
-
         return true;
     }
 

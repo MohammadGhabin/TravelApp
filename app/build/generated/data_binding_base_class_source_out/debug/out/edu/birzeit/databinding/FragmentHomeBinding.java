@@ -10,6 +10,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import edu.birzeit.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -20,7 +21,7 @@ public final class FragmentHomeBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final ImageView imageView2;
+  public final ImageView imageView;
 
   @NonNull
   public final TextView textView12;
@@ -64,7 +65,7 @@ public final class FragmentHomeBinding implements ViewBinding {
   @NonNull
   public final TextView textViewLongitude;
 
-  private FragmentHomeBinding(@NonNull ConstraintLayout rootView, @NonNull ImageView imageView2,
+  private FragmentHomeBinding(@NonNull ConstraintLayout rootView, @NonNull ImageView imageView,
       @NonNull TextView textView12, @NonNull TextView textView13, @NonNull TextView textView14,
       @NonNull TextView textView3, @NonNull TextView textView4, @NonNull TextView textView5,
       @NonNull TextView textView6, @NonNull TextView textViewCity,
@@ -72,7 +73,7 @@ public final class FragmentHomeBinding implements ViewBinding {
       @NonNull TextView textViewCountry, @NonNull TextView textViewDescription,
       @NonNull TextView textViewLatitude, @NonNull TextView textViewLongitude) {
     this.rootView = rootView;
-    this.imageView2 = imageView2;
+    this.imageView = imageView;
     this.textView12 = textView12;
     this.textView13 = textView13;
     this.textView14 = textView14;
@@ -116,100 +117,99 @@ public final class FragmentHomeBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.imageView2;
-      ImageView imageView2 = rootView.findViewById(id);
-      if (imageView2 == null) {
+      id = R.id.imageView;
+      ImageView imageView = ViewBindings.findChildViewById(rootView, id);
+      if (imageView == null) {
         break missingId;
       }
 
       id = R.id.textView12;
-      TextView textView12 = rootView.findViewById(id);
+      TextView textView12 = ViewBindings.findChildViewById(rootView, id);
       if (textView12 == null) {
         break missingId;
       }
 
       id = R.id.textView13;
-      TextView textView13 = rootView.findViewById(id);
+      TextView textView13 = ViewBindings.findChildViewById(rootView, id);
       if (textView13 == null) {
         break missingId;
       }
 
       id = R.id.textView14;
-      TextView textView14 = rootView.findViewById(id);
+      TextView textView14 = ViewBindings.findChildViewById(rootView, id);
       if (textView14 == null) {
         break missingId;
       }
 
       id = R.id.textView3;
-      TextView textView3 = rootView.findViewById(id);
+      TextView textView3 = ViewBindings.findChildViewById(rootView, id);
       if (textView3 == null) {
         break missingId;
       }
 
       id = R.id.textView4;
-      TextView textView4 = rootView.findViewById(id);
+      TextView textView4 = ViewBindings.findChildViewById(rootView, id);
       if (textView4 == null) {
         break missingId;
       }
 
       id = R.id.textView5;
-      TextView textView5 = rootView.findViewById(id);
+      TextView textView5 = ViewBindings.findChildViewById(rootView, id);
       if (textView5 == null) {
         break missingId;
       }
 
       id = R.id.textView6;
-      TextView textView6 = rootView.findViewById(id);
+      TextView textView6 = ViewBindings.findChildViewById(rootView, id);
       if (textView6 == null) {
         break missingId;
       }
 
       id = R.id.textViewCity;
-      TextView textViewCity = rootView.findViewById(id);
+      TextView textViewCity = ViewBindings.findChildViewById(rootView, id);
       if (textViewCity == null) {
         break missingId;
       }
 
       id = R.id.textViewContinent;
-      TextView textViewContinent = rootView.findViewById(id);
+      TextView textViewContinent = ViewBindings.findChildViewById(rootView, id);
       if (textViewContinent == null) {
         break missingId;
       }
 
       id = R.id.textViewCost;
-      TextView textViewCost = rootView.findViewById(id);
+      TextView textViewCost = ViewBindings.findChildViewById(rootView, id);
       if (textViewCost == null) {
         break missingId;
       }
 
       id = R.id.textViewCountry;
-      TextView textViewCountry = rootView.findViewById(id);
+      TextView textViewCountry = ViewBindings.findChildViewById(rootView, id);
       if (textViewCountry == null) {
         break missingId;
       }
 
       id = R.id.textViewDescription;
-      TextView textViewDescription = rootView.findViewById(id);
+      TextView textViewDescription = ViewBindings.findChildViewById(rootView, id);
       if (textViewDescription == null) {
         break missingId;
       }
 
       id = R.id.textViewLatitude;
-      TextView textViewLatitude = rootView.findViewById(id);
+      TextView textViewLatitude = ViewBindings.findChildViewById(rootView, id);
       if (textViewLatitude == null) {
         break missingId;
       }
 
       id = R.id.textViewLongitude;
-      TextView textViewLongitude = rootView.findViewById(id);
+      TextView textViewLongitude = ViewBindings.findChildViewById(rootView, id);
       if (textViewLongitude == null) {
         break missingId;
       }
 
-      return new FragmentHomeBinding((ConstraintLayout) rootView, imageView2, textView12,
-          textView13, textView14, textView3, textView4, textView5, textView6, textViewCity,
-          textViewContinent, textViewCost, textViewCountry, textViewDescription, textViewLatitude,
-          textViewLongitude);
+      return new FragmentHomeBinding((ConstraintLayout) rootView, imageView, textView12, textView13,
+          textView14, textView3, textView4, textView5, textView6, textViewCity, textViewContinent,
+          textViewCost, textViewCountry, textViewDescription, textViewLatitude, textViewLongitude);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

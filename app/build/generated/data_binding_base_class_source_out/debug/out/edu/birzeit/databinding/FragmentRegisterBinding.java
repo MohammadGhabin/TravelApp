@@ -12,6 +12,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import edu.birzeit.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -98,19 +99,19 @@ public final class FragmentRegisterBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.confirmPasswordRegisterEditText;
-      EditText confirmPasswordRegisterEditText = rootView.findViewById(id);
+      EditText confirmPasswordRegisterEditText = ViewBindings.findChildViewById(rootView, id);
       if (confirmPasswordRegisterEditText == null) {
         break missingId;
       }
 
       id = R.id.emailRegisterEditText;
-      EditText emailRegisterEditText = rootView.findViewById(id);
+      EditText emailRegisterEditText = ViewBindings.findChildViewById(rootView, id);
       if (emailRegisterEditText == null) {
         break missingId;
       }
 
       id = R.id.firstNameEditText;
-      EditText firstNameEditText = rootView.findViewById(id);
+      EditText firstNameEditText = ViewBindings.findChildViewById(rootView, id);
       if (firstNameEditText == null) {
         break missingId;
       }
@@ -118,37 +119,37 @@ public final class FragmentRegisterBinding implements ViewBinding {
       FrameLayout fragmentRegister = (FrameLayout) rootView;
 
       id = R.id.goToLoginPageTextView;
-      TextView goToLoginPageTextView = rootView.findViewById(id);
+      TextView goToLoginPageTextView = ViewBindings.findChildViewById(rootView, id);
       if (goToLoginPageTextView == null) {
         break missingId;
       }
 
       id = R.id.lastNameEditText;
-      EditText lastNameEditText = rootView.findViewById(id);
+      EditText lastNameEditText = ViewBindings.findChildViewById(rootView, id);
       if (lastNameEditText == null) {
         break missingId;
       }
 
       id = R.id.passwordRegisterEditText;
-      EditText passwordRegisterEditText = rootView.findViewById(id);
+      EditText passwordRegisterEditText = ViewBindings.findChildViewById(rootView, id);
       if (passwordRegisterEditText == null) {
         break missingId;
       }
 
       id = R.id.phoneEditText;
-      EditText phoneEditText = rootView.findViewById(id);
+      EditText phoneEditText = ViewBindings.findChildViewById(rootView, id);
       if (phoneEditText == null) {
         break missingId;
       }
 
       id = R.id.registerButton;
-      Button registerButton = rootView.findViewById(id);
+      Button registerButton = ViewBindings.findChildViewById(rootView, id);
       if (registerButton == null) {
         break missingId;
       }
 
       id = R.id.spinnerGender;
-      Spinner spinnerGender = rootView.findViewById(id);
+      Spinner spinnerGender = ViewBindings.findChildViewById(rootView, id);
       if (spinnerGender == null) {
         break missingId;
       }

@@ -9,6 +9,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import edu.birzeit.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -55,7 +56,7 @@ public final class ActivityMainBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.getStartedButton;
-      Button getStartedButton = rootView.findViewById(id);
+      Button getStartedButton = ViewBindings.findChildViewById(rootView, id);
       if (getStartedButton == null) {
         break missingId;
       }

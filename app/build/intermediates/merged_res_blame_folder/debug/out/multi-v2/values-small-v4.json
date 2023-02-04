@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\v-mghabin\\Downloads\\lab android-20230120T171023Z-001\\lab android\\AndroidStudioProjects\\1161318MohammadGhabinProject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-small-v4\\values-small-v4.xml",
+            "outputFile": "edu.birzeit.app-mergeDebugResources-30:/values-small-v4/values-small-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\v-mghabin\\.gradle\\caches\\transforms-2\\files-2.1\\dcb71d9e241694395b1f513d3d3a8b55\\material-1.1.0\\res\\values-small-v4\\values-small-v4.xml",
+                    "source": "C:\\Users\\v-mghabin\\.gradle\\caches\\transforms-3\\e9ba59c9470897df6f1c989da68d3c7c\\transformed\\material-1.1.0\\res\\values-small-v4\\values-small-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

@@ -1,16 +1,11 @@
 package edu.birzeit;
 
-import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Intent;
 import android.database.Cursor;
-import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
-
 import androidx.fragment.app.Fragment;
-import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
-
 import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -28,7 +23,6 @@ public class LoginFragment extends Fragment {
     private TextView goToRegisterPage;
     public static String emailLogedIn;
 
-
     @Override
     public View onCreateView(LayoutInflater inflater, final ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_login,container,false);
@@ -37,7 +31,6 @@ public class LoginFragment extends Fragment {
         rememberMe = view.findViewById(R.id.rememberMeCheckBox);
         login = view.findViewById(R.id.loginButton);
         goToRegisterPage = view.findViewById(R.id.goToRegisterPageTextView);
-
 
         login.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -55,7 +48,6 @@ public class LoginFragment extends Fragment {
 
                 DataBaseHelper dataBaseHelper = new DataBaseHelper(getContext(),"1183377a",null,1);
                 Cursor customerdata = dataBaseHelper.getDataLoginFromDB(email,password);
-
                 if(customerdata.getCount() == 0){
                     Toast toast =Toast.makeText(getContext(), "Error in Email or in Password, No data found",Toast.LENGTH_SHORT);
                     toast.show();
@@ -107,5 +99,4 @@ public class LoginFragment extends Fragment {
         builder.setMessage(message);
         builder.show();
     }
-
 }

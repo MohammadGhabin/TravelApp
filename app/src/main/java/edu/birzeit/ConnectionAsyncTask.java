@@ -2,7 +2,6 @@ package edu.birzeit;
 
 import android.app.Activity;
 import android.os.AsyncTask;
-import java.util.List;
 
 public class ConnectionAsyncTask extends AsyncTask<String, String, String> {
     Activity activity;
@@ -15,7 +14,6 @@ public class ConnectionAsyncTask extends AsyncTask<String, String, String> {
     protected void onPreExecute() {
         ((MainActivity) activity).setButtonText("connecting");
         super.onPreExecute();
-        //((MainActivity) activity).setProgress(true);
     }
     @Override
     protected String doInBackground(String... params) {
@@ -25,9 +23,7 @@ public class ConnectionAsyncTask extends AsyncTask<String, String, String> {
     @Override
     protected void onPostExecute(String s) {
         super.onPostExecute(s);
-        //((MainActivity) activity).setProgress(false);
         ((MainActivity) activity).setButtonText("connected");
-        MainActivity.destinationActivities = DestinationActivitiesJsonParser.getObjectFromJson(s);
-        //((MainActivity) activity).fillStudents(students);
+        MainActivity.destinations = DestinationActivitiesJsonParser.getObjectFromJson(s);
     }
 }

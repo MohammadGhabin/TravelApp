@@ -1,82 +1,82 @@
 [
     {
-        "merged": "C:\\Users\\v-mghabin\\Downloads\\lab android-20230120T171023Z-001\\lab android\\AndroidStudioProjects\\1161318MohammadGhabinProject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_home.xml",
-        "source": "C:\\Users\\v-mghabin\\Downloads\\lab android-20230120T171023Z-001\\lab android\\AndroidStudioProjects\\1161318MohammadGhabinProject\\app\\src\\main\\res\\layout\\fragment_home.xml"
+        "merged": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-mergeDebugResources-31:\\layout\\fragment_register.xml",
+        "source": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-main-34:\\layout\\fragment_register.xml"
     },
     {
-        "merged": "C:\\Users\\v-mghabin\\Downloads\\lab android-20230120T171023Z-001\\lab android\\AndroidStudioProjects\\1161318MohammadGhabinProject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_destnation.xml",
-        "source": "C:\\Users\\v-mghabin\\Downloads\\lab android-20230120T171023Z-001\\lab android\\AndroidStudioProjects\\1161318MohammadGhabinProject\\app\\src\\main\\res\\layout\\activity_destnation.xml"
+        "merged": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-mergeDebugResources-31:\\layout\\app_bar_main.xml",
+        "source": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-main-34:\\layout\\app_bar_main.xml"
     },
     {
-        "merged": "C:\\Users\\v-mghabin\\Downloads\\lab android-20230120T171023Z-001\\lab android\\AndroidStudioProjects\\1161318MohammadGhabinProject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_destinationmenu.xml",
-        "source": "C:\\Users\\v-mghabin\\Downloads\\lab android-20230120T171023Z-001\\lab android\\AndroidStudioProjects\\1161318MohammadGhabinProject\\app\\src\\main\\res\\layout\\fragment_destinationmenu.xml"
+        "merged": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-mergeDebugResources-31:\\layout\\activity_navigation_drawer.xml",
+        "source": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-main-34:\\layout\\activity_navigation_drawer.xml"
     },
     {
-        "merged": "C:\\Users\\v-mghabin\\Downloads\\lab android-20230120T171023Z-001\\lab android\\AndroidStudioProjects\\1161318MohammadGhabinProject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\content_main.xml",
-        "source": "C:\\Users\\v-mghabin\\Downloads\\lab android-20230120T171023Z-001\\lab android\\AndroidStudioProjects\\1161318MohammadGhabinProject\\app\\src\\main\\res\\layout\\content_main.xml"
+        "merged": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-mergeDebugResources-31:\\layout\\fragment_login.xml",
+        "source": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-main-34:\\layout\\fragment_login.xml"
     },
     {
-        "merged": "C:\\Users\\v-mghabin\\Downloads\\lab android-20230120T171023Z-001\\lab android\\AndroidStudioProjects\\1161318MohammadGhabinProject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_call_us.xml",
-        "source": "C:\\Users\\v-mghabin\\Downloads\\lab android-20230120T171023Z-001\\lab android\\AndroidStudioProjects\\1161318MohammadGhabinProject\\app\\src\\main\\res\\layout\\fragment_call_us.xml"
+        "merged": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-mergeDebugResources-31:\\layout\\fragment_favorites.xml",
+        "source": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-main-34:\\layout\\fragment_favorites.xml"
     },
     {
-        "merged": "C:\\Users\\v-mghabin\\Downloads\\lab android-20230120T171023Z-001\\lab android\\AndroidStudioProjects\\1161318MohammadGhabinProject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\row.xml",
-        "source": "C:\\Users\\v-mghabin\\Downloads\\lab android-20230120T171023Z-001\\lab android\\AndroidStudioProjects\\1161318MohammadGhabinProject\\app\\src\\main\\res\\layout\\row.xml"
+        "merged": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-mergeDebugResources-31:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-main-34:\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\v-mghabin\\Downloads\\lab android-20230120T171023Z-001\\lab android\\AndroidStudioProjects\\1161318MohammadGhabinProject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_loginregistration.xml",
-        "source": "C:\\Users\\v-mghabin\\Downloads\\lab android-20230120T171023Z-001\\lab android\\AndroidStudioProjects\\1161318MohammadGhabinProject\\app\\src\\main\\res\\layout\\activity_loginregistration.xml"
+        "merged": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-mergeDebugResources-31:\\layout\\activity_destination.xml",
+        "source": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-main-34:\\layout\\activity_destination.xml"
     },
     {
-        "merged": "C:\\Users\\v-mghabin\\Downloads\\lab android-20230120T171023Z-001\\lab android\\AndroidStudioProjects\\1161318MohammadGhabinProject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_profile.xml",
-        "source": "C:\\Users\\v-mghabin\\Downloads\\lab android-20230120T171023Z-001\\lab android\\AndroidStudioProjects\\1161318MohammadGhabinProject\\app\\src\\main\\res\\layout\\fragment_profile.xml"
+        "merged": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-mergeDebugResources-31:\\layout\\fragment_description.xml",
+        "source": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-main-34:\\layout\\fragment_description.xml"
     },
     {
-        "merged": "C:\\Users\\v-mghabin\\Downloads\\lab android-20230120T171023Z-001\\lab android\\AndroidStudioProjects\\1161318MohammadGhabinProject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_first.xml",
-        "source": "C:\\Users\\v-mghabin\\Downloads\\lab android-20230120T171023Z-001\\lab android\\AndroidStudioProjects\\1161318MohammadGhabinProject\\app\\src\\main\\res\\layout\\fragment_first.xml"
+        "merged": "edu.birzeit.app-mergeDebugResources-31:/layout/activity_destination.xml",
+        "source": "edu.birzeit.app-main-34:/layout/activity_destination.xml"
     },
     {
-        "merged": "C:\\Users\\v-mghabin\\Downloads\\lab android-20230120T171023Z-001\\lab android\\AndroidStudioProjects\\1161318MohammadGhabinProject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\app_bar_main.xml",
-        "source": "C:\\Users\\v-mghabin\\Downloads\\lab android-20230120T171023Z-001\\lab android\\AndroidStudioProjects\\1161318MohammadGhabinProject\\app\\src\\main\\res\\layout\\app_bar_main.xml"
+        "merged": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-mergeDebugResources-31:\\layout\\fragment_image.xml",
+        "source": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-main-34:\\layout\\fragment_image.xml"
     },
     {
-        "merged": "C:\\Users\\v-mghabin\\Downloads\\lab android-20230120T171023Z-001\\lab android\\AndroidStudioProjects\\1161318MohammadGhabinProject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_login.xml",
-        "source": "C:\\Users\\v-mghabin\\Downloads\\lab android-20230120T171023Z-001\\lab android\\AndroidStudioProjects\\1161318MohammadGhabinProject\\app\\src\\main\\res\\layout\\fragment_login.xml"
+        "merged": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-mergeDebugResources-31:\\layout\\nav_header_main.xml",
+        "source": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-main-34:\\layout\\nav_header_main.xml"
     },
     {
-        "merged": "C:\\Users\\v-mghabin\\Downloads\\lab android-20230120T171023Z-001\\lab android\\AndroidStudioProjects\\1161318MohammadGhabinProject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_register.xml",
-        "source": "C:\\Users\\v-mghabin\\Downloads\\lab android-20230120T171023Z-001\\lab android\\AndroidStudioProjects\\1161318MohammadGhabinProject\\app\\src\\main\\res\\layout\\fragment_register.xml"
+        "merged": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-mergeDebugResources-31:\\layout\\fragment_sorted.xml",
+        "source": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-main-34:\\layout\\fragment_sorted.xml"
     },
     {
-        "merged": "C:\\Users\\v-mghabin\\Downloads\\lab android-20230120T171023Z-001\\lab android\\AndroidStudioProjects\\1161318MohammadGhabinProject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_reservations.xml",
-        "source": "C:\\Users\\v-mghabin\\Downloads\\lab android-20230120T171023Z-001\\lab android\\AndroidStudioProjects\\1161318MohammadGhabinProject\\app\\src\\main\\res\\layout\\fragment_reservations.xml"
+        "merged": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-mergeDebugResources-31:\\layout\\fragment_home.xml",
+        "source": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-main-34:\\layout\\fragment_home.xml"
     },
     {
-        "merged": "C:\\Users\\v-mghabin\\Downloads\\lab android-20230120T171023Z-001\\lab android\\AndroidStudioProjects\\1161318MohammadGhabinProject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_destination.xml",
-        "source": "C:\\Users\\v-mghabin\\Downloads\\lab android-20230120T171023Z-001\\lab android\\AndroidStudioProjects\\1161318MohammadGhabinProject\\app\\src\\main\\res\\layout\\fragment_destination.xml"
+        "merged": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-mergeDebugResources-31:\\layout\\content_main.xml",
+        "source": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-main-34:\\layout\\content_main.xml"
     },
     {
-        "merged": "C:\\Users\\v-mghabin\\Downloads\\lab android-20230120T171023Z-001\\lab android\\AndroidStudioProjects\\1161318MohammadGhabinProject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_navigation_drawer.xml",
-        "source": "C:\\Users\\v-mghabin\\Downloads\\lab android-20230120T171023Z-001\\lab android\\AndroidStudioProjects\\1161318MohammadGhabinProject\\app\\src\\main\\res\\layout\\activity_navigation_drawer.xml"
+        "merged": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-mergeDebugResources-31:\\layout\\activity_loginregistration.xml",
+        "source": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-main-34:\\layout\\activity_loginregistration.xml"
     },
     {
-        "merged": "C:\\Users\\v-mghabin\\Downloads\\lab android-20230120T171023Z-001\\lab android\\AndroidStudioProjects\\1161318MohammadGhabinProject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\content_destnation.xml",
-        "source": "C:\\Users\\v-mghabin\\Downloads\\lab android-20230120T171023Z-001\\lab android\\AndroidStudioProjects\\1161318MohammadGhabinProject\\app\\src\\main\\res\\layout\\content_destnation.xml"
+        "merged": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-mergeDebugResources-31:\\layout\\fragment_all.xml",
+        "source": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-main-34:\\layout\\fragment_all.xml"
     },
     {
-        "merged": "C:\\Users\\v-mghabin\\Downloads\\lab android-20230120T171023Z-001\\lab android\\AndroidStudioProjects\\1161318MohammadGhabinProject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\nav_header_main.xml",
-        "source": "C:\\Users\\v-mghabin\\Downloads\\lab android-20230120T171023Z-001\\lab android\\AndroidStudioProjects\\1161318MohammadGhabinProject\\app\\src\\main\\res\\layout\\nav_header_main.xml"
+        "merged": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-mergeDebugResources-31:\\layout\\fragment_map.xml",
+        "source": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-main-34:\\layout\\fragment_map.xml"
     },
     {
-        "merged": "C:\\Users\\v-mghabin\\Downloads\\lab android-20230120T171023Z-001\\lab android\\AndroidStudioProjects\\1161318MohammadGhabinProject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_second.xml",
-        "source": "C:\\Users\\v-mghabin\\Downloads\\lab android-20230120T171023Z-001\\lab android\\AndroidStudioProjects\\1161318MohammadGhabinProject\\app\\src\\main\\res\\layout\\fragment_second.xml"
+        "merged": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-mergeDebugResources-31:\\layout\\fragment_profile.xml",
+        "source": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-main-34:\\layout\\fragment_profile.xml"
     },
     {
-        "merged": "C:\\Users\\v-mghabin\\Downloads\\lab android-20230120T171023Z-001\\lab android\\AndroidStudioProjects\\1161318MohammadGhabinProject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
-        "source": "C:\\Users\\v-mghabin\\Downloads\\lab android-20230120T171023Z-001\\lab android\\AndroidStudioProjects\\1161318MohammadGhabinProject\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-mergeDebugResources-31:\\layout\\row.xml",
+        "source": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-main-34:\\layout\\row.xml"
     },
     {
-        "merged": "C:\\Users\\v-mghabin\\Downloads\\lab android-20230120T171023Z-001\\lab android\\AndroidStudioProjects\\1161318MohammadGhabinProject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_favorites.xml",
-        "source": "C:\\Users\\v-mghabin\\Downloads\\lab android-20230120T171023Z-001\\lab android\\AndroidStudioProjects\\1161318MohammadGhabinProject\\app\\src\\main\\res\\layout\\fragment_favorites.xml"
+        "merged": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-mergeDebugResources-31:\\layout\\fragment_destination.xml",
+        "source": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-main-34:\\layout\\fragment_destination.xml"
     }
 ]

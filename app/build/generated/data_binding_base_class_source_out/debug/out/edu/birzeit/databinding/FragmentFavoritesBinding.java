@@ -9,6 +9,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import edu.birzeit.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -55,7 +56,7 @@ public final class FragmentFavoritesBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.text_favourites;
-      TextView textFavourites = rootView.findViewById(id);
+      TextView textFavourites = ViewBindings.findChildViewById(rootView, id);
       if (textFavourites == null) {
         break missingId;
       }

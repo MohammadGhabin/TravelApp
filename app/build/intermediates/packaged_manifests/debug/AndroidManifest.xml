@@ -6,9 +6,22 @@
 
     <uses-sdk
         android:minSdkVersion="26"
-        android:targetSdkVersion="29" />
+        android:targetSdkVersion="33" />
 
     <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- Include required permissions for Google Maps API to run. -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <queries>
+
+        <!-- Needs to be explicitly declared on Android R+ -->
+        <package android:name="com.google.android.apps.maps" />
+    </queries>
 
     <application
         android:allowBackup="true"
@@ -22,32 +35,58 @@
         android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="edu.birzeit.ui.Destination.Destnation"
-            android:exported="false"
-            android:label="@string/title_activity_destnation"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:name="edu.birzeit.DestinationActivity"
+            android:exported="false" >
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
             android:name="edu.birzeit.NavigationDrawerActivity"
+            android:exported="false"
             android:label="@string/title_activity_navigation_drawer"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity> <!-- <activity -->
+        <!-- android:name=".ui.Destination.Destnation" -->
+        <!-- android:exported="false" -->
+        <!-- android:label="@string/title_activity_destnation" -->
+        <!-- android:theme="@style/AppTheme.NoActionBar"> -->
+        <!-- <meta-data -->
+        <!-- android:name="android.app.lib_name" -->
+        <!-- android:value="" /> -->
+        <!-- </activity> -->
         <activity android:name="edu.birzeit.LoginRegistrationActivity" />
-        <activity android:name="edu.birzeit.MainActivity" >
+        <activity
+            android:name="edu.birzeit.MainActivity"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <!-- Needs to be explicitly declared on P+ -->
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
 
         <provider
             android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
             android:authorities="edu.birzeit.lifecycle-process"
             android:exported="false"
             android:multiprocess="true" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
     </application>
 
 </manifest>

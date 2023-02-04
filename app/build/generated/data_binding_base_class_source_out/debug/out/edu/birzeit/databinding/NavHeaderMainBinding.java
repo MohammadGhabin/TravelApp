@@ -10,6 +10,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import edu.birzeit.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -65,19 +66,19 @@ public final class NavHeaderMainBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.email_nav_headerTextView;
-      TextView emailNavHeaderTextView = rootView.findViewById(id);
+      TextView emailNavHeaderTextView = ViewBindings.findChildViewById(rootView, id);
       if (emailNavHeaderTextView == null) {
         break missingId;
       }
 
       id = R.id.name_nav_headerTextView;
-      TextView nameNavHeaderTextView = rootView.findViewById(id);
+      TextView nameNavHeaderTextView = ViewBindings.findChildViewById(rootView, id);
       if (nameNavHeaderTextView == null) {
         break missingId;
       }
 
       id = R.id.nav_header_imageView;
-      ImageView navHeaderImageView = rootView.findViewById(id);
+      ImageView navHeaderImageView = ViewBindings.findChildViewById(rootView, id);
       if (navHeaderImageView == null) {
         break missingId;
       }

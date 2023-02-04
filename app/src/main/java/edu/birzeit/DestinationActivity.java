@@ -1,106 +1,117 @@
 package edu.birzeit;
 
-import java.net.URL;
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.TextView;
 
-public class DestinationActivity {
-    private String city;
-    private String country;
-    private String continent;
-    private double longitude;
-    private double latitude;
-    private double cost;
-    private String img;
-    private String description;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
 
-    public DestinationActivity() {
-    }
 
-    public DestinationActivity(String city, String country, String continent, double longitude, double latitude, double cost, String img, String description) {
-        this.city = city;
-        this.country = country;
-        this.continent = continent;
-        this.longitude = longitude;
-        this.latitude = latitude;
-        this.cost = cost;
-        this.img = img;
-        this.description = description;
-    }
-
-    public String getCity() {
-        return city;
-    }
-
-    public void setCity(String city) {
-        this.city = city;
-    }
-
-    public String getCountry() {
-        return country;
-    }
-
-    public void setCountry(String country) {
-        this.country = country;
-    }
-
-    public String getContinent() {
-        return continent;
-    }
-
-    public void setContinent(String continent) {
-        this.continent = continent;
-    }
-
-    public double getLongitude() {
-        return longitude;
-    }
-
-    public void setLongitude(double longitude) {
-        this.longitude = longitude;
-    }
-
-    public double getLatitude() {
-        return latitude;
-    }
-
-    public void setLatitude(double latitude) {
-        this.latitude = latitude;
-    }
-
-    public double getCost() {
-        return cost;
-    }
-
-    public void setCost(double cost) {
-        this.cost = cost;
-    }
-
-    public String getImg() {
-        return img;
-    }
-
-    public void setImg(String img) {
-        this.img = img;
-    }
-
-    public String getDescription() {
-        return description;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
-    }
+public class DestinationActivity extends AppCompatActivity {
+    private Destination destination;
+    private DescriptionFragment descriptionFragment;
+    private ImageFragment imageFragment;
+    private MapFragment mapFragment;
 
     @Override
-    public String toString() {
-        return "DestinationActivity{" +
-                "city='" + city + '\'' +
-                ", country='" + country + '\'' +
-                ", continent='" + continent + '\'' +
-                ", longitude=" + longitude +
-                ", latitude=" + latitude +
-                ", cost=" + cost +
-                ", img=" + img +
-                ", description='" + description + '\'' +
-                '}';
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_destination);
+        Intent intent = getIntent();
+        FragmentManager mFragmentManager = getSupportFragmentManager();
+        destination = (Destination) intent.getSerializableExtra("destination");
+
+        // Set the name of the destination
+        TextView destinationName = findViewById(R.id.destination_name);
+        destinationName.setText(destination.getCity());
+
+        // Find the buttons
+        Button descriptionButton = findViewById(R.id.description_button);
+        Button imageButton = findViewById(R.id.image_button);
+        Button mapButton = findViewById(R.id.map_button);
+
+        // Initialize the fragments
+        descriptionFragment = new DescriptionFragment();
+        imageFragment = new ImageFragment();
+        mapFragment = new MapFragment();
+
+        descriptionButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                FragmentTransaction transaction = mFragmentManager.beginTransaction();
+                if(imageFragment.isAdded()){
+                    transaction.remove(imageFragment);
+                    imageButton.setText("Show Image");
+                }
+                if(mapFragment.isAdded()){
+                    transaction.remove(mapFragment);
+                    mapButton.setText("Show Map");
+                }
+                if (descriptionFragment.isAdded()) {
+                    transaction.remove(descriptionFragment);
+                    descriptionButton.setText("Show Description");
+                } else {
+                    transaction.add(R.id.fragment_container, descriptionFragment, destination.getDescription());
+                    descriptionButton.setText("Hide Description");
+                }
+                transaction.commit();
+            }
+        });
+
+        // Show/hide the image fragment when the second button is clicked
+        imageButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                FragmentTransaction transaction = mFragmentManager.beginTransaction();
+                if (descriptionFragment.isAdded()) {
+                    transaction.remove(descriptionFragment);
+                    descriptionButton.setText("Show Description");
+                }
+                if(mapFragment.isAdded()){
+                    transaction.remove(mapFragment);
+                    mapButton.setText("Show Map");
+                }
+                if (imageFragment.isAdded()) {
+                    transaction.remove(imageFragment);
+                    imageButton.setText("Show Image");
+                } else {
+                    transaction.add(R.id.fragment_container, imageFragment, destination.getImg());
+                    imageButton.setText("Hide Image");
+                }
+                transaction.commit();
+            }
+        });
+
+        // Show the map fragment when the third button is clicked
+        mapButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                FragmentTransaction transaction = mFragmentManager.beginTransaction();
+                if (descriptionFragment.isAdded()) {
+                    transaction.remove(descriptionFragment);
+                    descriptionButton.setText("Show Description");
+                }
+                if (imageFragment.isAdded()) {
+                    transaction.remove(imageFragment);
+                    imageButton.setText("Show Image");
+                }
+                if (mapFragment.isAdded()) {
+                    transaction.remove(mapFragment);
+                    mapButton.setText("Show Map");
+                } else {
+                    transaction.add(R.id.fragment_container, mapFragment);
+                    mapButton.setText("Hide Map");
+                }
+                transaction.commit();
+            }
+        });
+    }
+
+    public void onBackButtonClicked(View view) {
+        finish();
     }
 }

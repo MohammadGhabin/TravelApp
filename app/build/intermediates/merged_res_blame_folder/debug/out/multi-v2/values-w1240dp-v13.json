@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\v-mghabin\\Downloads\\lab android-20230120T171023Z-001\\lab android\\AndroidStudioProjects\\1161318MohammadGhabinProject\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w1240dp-v13\\values-w1240dp-v13.xml",
+            "outputFile": "edu.birzeit.app-mergeDebugResources-30:/values-w1240dp-v13/values-w1240dp-v13.xml",
             "map": [
                 {
                     "source": "C:\\Users\\v-mghabin\\Downloads\\lab android-20230120T171023Z-001\\lab android\\AndroidStudioProjects\\1161318MohammadGhabinProject\\app\\src\\main\\res\\values-w1240dp\\dimens.xml",

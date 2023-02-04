@@ -3,34 +3,33 @@ package edu.birzeit;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
-
 import java.util.ArrayList;
 import java.util.List;
 
 public class DestinationActivitiesJsonParser {
-    public static List<DestinationActivity> getObjectFromJson(String json) {
-        List<DestinationActivity> destinationActivities;
+    public static List<Destination> getObjectFromJson(String json) {
+        List<Destination> destinations;
         try {
             JSONArray jsonArray = new JSONArray(json);
-            destinationActivities = new ArrayList<>();
+            destinations = new ArrayList<>(jsonArray.length());
             for (int i = 0; i < jsonArray.length(); i++) {
                 JSONObject jsonObject = new JSONObject();
                 jsonObject = (JSONObject) jsonArray.get(i);
-                DestinationActivity destinationActivity = new DestinationActivity();
-                destinationActivity.setCity(jsonObject.getString("city"));
-                destinationActivity.setCountry(jsonObject.getString("country"));
-                destinationActivity.setContinent(jsonObject.getString("continent"));
-                destinationActivity.setLongitude(jsonObject.getDouble("longitude"));
-                destinationActivity.setLatitude(jsonObject.getDouble("latitude"));
-                destinationActivity.setCost(jsonObject.getDouble("cost"));
-                destinationActivity.setImg(jsonObject.getString("img"));
-                destinationActivity.setDescription(jsonObject.getString("description"));
-                destinationActivities.add(destinationActivity);
+                Destination destination = new Destination();
+                destination.setCity(jsonObject.getString("city"));
+                destination.setCountry(jsonObject.getString("country"));
+                destination.setContinent(jsonObject.getString("continent"));
+                destination.setLongitude(jsonObject.getDouble("longitude"));
+                destination.setLatitude(jsonObject.getDouble("latitude"));
+                destination.setCost(jsonObject.getDouble("cost"));
+                destination.setImg(jsonObject.getString("img"));
+                destination.setDescription(jsonObject.getString("description"));
+                destinations.add(destination);
             }
         } catch (JSONException e) {
             e.printStackTrace();
             return null;
         }
-        return destinationActivities;
+        return destinations;
     }
 }

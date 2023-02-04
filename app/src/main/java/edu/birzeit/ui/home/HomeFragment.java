@@ -1,40 +1,30 @@
 package edu.birzeit.ui.home;
 
 import android.content.Context;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 import android.os.Bundle;
-import android.os.Handler;
-import android.os.Looper;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
-import android.widget.ListView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
-import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 
 import java.util.List;
-import java.util.concurrent.Executor;
-import java.util.concurrent.Executors;
 
-import edu.birzeit.DestinationActivity;
+import edu.birzeit.Destination;
 import edu.birzeit.DownloadImageTask;
 import edu.birzeit.MainActivity;
 import edu.birzeit.R;
-import edu.birzeit.ui.destinationMenu.DestinationMenuFragment;
 
 public class HomeFragment extends Fragment {
-    List<DestinationActivity> destinationActivities = MainActivity.destinationActivities;
+    List<Destination> destinationActivities = MainActivity.destinations;
     int randomDestinationIndex = getRandomInteger(0,destinationActivities.size()-1);
-    DestinationActivity destinationActivity = destinationActivities.get(randomDestinationIndex);
+    Destination destinationActivity = destinationActivities.get(randomDestinationIndex);
     private HomeViewModel homeViewModel;
     private TextView textViewCity, textViewCountry, textViewContinent, textViewLongitude, textViewLatitude, textViewCost, textViewDescription;
     private ImageView imageView;
