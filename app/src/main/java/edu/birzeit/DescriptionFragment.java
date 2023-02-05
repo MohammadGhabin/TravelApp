@@ -1,20 +1,20 @@
 package edu.birzeit;
 import android.os.Bundle;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
+
 public class DescriptionFragment extends Fragment {
-
-    private static final String sdescription = "description";
-
-    // TODO: Rename and change types of parameters
-    private String mParam1;
 
     public static DescriptionFragment newInstance(String description) {
         DescriptionFragment fragment = new DescriptionFragment();
         Bundle args = new Bundle();
-        args.putString(sdescription, description);
+        args.putString("description", description);
         fragment.setArguments(args);
         return fragment;
     }
@@ -26,15 +26,18 @@ public class DescriptionFragment extends Fragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        if (getArguments() != null) {
-            mParam1 = getArguments().getString(sdescription);
-        }
     }
 
+    @Nullable
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+    public View onCreateView(@NonNull LayoutInflater inflater,@Nullable ViewGroup container, @Nullable
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_description, container, false);
+        View view = inflater.inflate(R.layout.fragment_description, container, false);
+        // get description text from REST response and set it in the TextView
+        TextView descriptionTextView = view.findViewById(R.id.description_text);
+        String description = getArguments().getString("description");
+        descriptionTextView.setText(description);
+        return view;
     }
 }

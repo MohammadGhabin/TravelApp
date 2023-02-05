@@ -32,10 +32,6 @@
         "source": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-main-34:\\layout\\fragment_description.xml"
     },
     {
-        "merged": "edu.birzeit.app-mergeDebugResources-31:/layout/activity_destination.xml",
-        "source": "edu.birzeit.app-main-34:/layout/activity_destination.xml"
-    },
-    {
         "merged": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-mergeDebugResources-31:\\layout\\fragment_image.xml",
         "source": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-main-34:\\layout\\fragment_image.xml"
     },
@@ -58,6 +54,10 @@
     {
         "merged": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-mergeDebugResources-31:\\layout\\activity_loginregistration.xml",
         "source": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-main-34:\\layout\\activity_loginregistration.xml"
+    },
+    {
+        "merged": "edu.birzeit.app-mergeDebugResources-31:/layout/row.xml",
+        "source": "edu.birzeit.app-main-34:/layout/row.xml"
     },
     {
         "merged": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-mergeDebugResources-31:\\layout\\fragment_all.xml",

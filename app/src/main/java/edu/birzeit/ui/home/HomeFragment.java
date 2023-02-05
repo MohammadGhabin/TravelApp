@@ -14,10 +14,11 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProviders;
 
+import com.squareup.picasso.Picasso;
+
 import java.util.List;
 
 import edu.birzeit.Destination;
-import edu.birzeit.DownloadImageTask;
 import edu.birzeit.MainActivity;
 import edu.birzeit.R;
 
@@ -41,7 +42,7 @@ public class HomeFragment extends Fragment {
         textViewLatitude = root.findViewById(R.id.textViewLatitude);
         textViewCost = root.findViewById(R.id.textViewCost);
         textViewDescription = root.findViewById(R.id.textViewDescription);
-//        imageView = root.findViewById(R.id.imageView);
+        imageView = root.findViewById(R.id.imageView);
 
         textViewCity.setText(destinationActivity.getCity());
         textViewCountry.setText(destinationActivity.getCountry());
@@ -50,8 +51,7 @@ public class HomeFragment extends Fragment {
         textViewLatitude.setText(destinationActivity.getLatitude() + "");
         textViewCost.setText(destinationActivity.getCost() + "");
         textViewDescription.setText(destinationActivity.getDescription());
-        DownloadImageTask downloadImageTask = new DownloadImageTask();
-//        imageView.setImageBitmap(downloadImageTask.execute(destinationActivity.getImg()));
+        Picasso.get().load(destinationActivity.getImg()).into(imageView);
 
         return root;
     }

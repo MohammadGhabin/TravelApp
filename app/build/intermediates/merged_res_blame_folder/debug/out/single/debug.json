@@ -16,28 +16,36 @@
         "source": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-main-34:\\layout\\fragment_register.xml"
     },
     {
+        "merged": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-merged_res-32:\\mipmap-mdpi_back_arrow_round.png.flat",
+        "source": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-main-34:\\mipmap-mdpi\\back_arrow_round.png"
+    },
+    {
         "merged": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-merged_res-32:\\mipmap-xhdpi_back_arrow.png.flat",
         "source": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-main-34:\\mipmap-xhdpi\\back_arrow.png"
     },
     {
-        "merged": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-merged_res-32:\\mipmap-mdpi_back_arrow_round.png.flat",
-        "source": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-main-34:\\mipmap-mdpi\\back_arrow_round.png"
+        "merged": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-merged_res-32:\\drawable_favourite_filled_foreground.xml.flat",
+        "source": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-main-34:\\drawable\\favourite_filled_foreground.xml"
     },
     {
         "merged": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-merged_res-32:\\drawable_ic_menu_camera.xml.flat",
         "source": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-main-34:\\drawable\\ic_menu_camera.xml"
     },
     {
-        "merged": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-merged_res-32:\\mipmap-xxhdpi_back_arrow_round.png.flat",
-        "source": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-main-34:\\mipmap-xxhdpi\\back_arrow_round.png"
-    },
-    {
         "merged": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-merged_res-32:\\drawable_ic_launcher_background.xml.flat",
         "source": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-main-34:\\drawable\\ic_launcher_background.xml"
     },
     {
+        "merged": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-merged_res-32:\\mipmap-xxhdpi_back_arrow_round.png.flat",
+        "source": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-main-34:\\mipmap-xxhdpi\\back_arrow_round.png"
+    },
+    {
         "merged": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-merged_res-32:\\mipmap-hdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-main-34:\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-merged_res-32:\\drawable_favourite_empty_foreground.xml.flat",
+        "source": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-main-34:\\drawable\\favourite_empty_foreground.xml"
     },
     {
         "merged": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-merged_res-32:\\mipmap-xxxhdpi_back_arrow.png.flat",
@@ -52,8 +60,20 @@
         "source": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-main-34:\\layout\\fragment_login.xml"
     },
     {
+        "merged": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-merged_res-32:\\mipmap-xxhdpi_favourite_filled_round.png.flat",
+        "source": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-main-34:\\mipmap-xxhdpi\\favourite_filled_round.png"
+    },
+    {
+        "merged": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-merged_res-32:\\mipmap-xxxhdpi_favourite_empty.png.flat",
+        "source": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-main-34:\\mipmap-xxxhdpi\\favourite_empty.png"
+    },
+    {
         "merged": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-merged_res-32:\\navigation_mobile_navigation.xml.flat",
         "source": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-main-34:\\navigation\\mobile_navigation.xml"
+    },
+    {
+        "merged": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-merged_res-32:\\mipmap-mdpi_favourite_filled.png.flat",
+        "source": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-main-34:\\mipmap-mdpi\\favourite_filled.png"
     },
     {
         "merged": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-merged_res-32:\\layout_fragment_destination.xml.flat",
@@ -80,8 +100,20 @@
         "source": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-main-34:\\drawable\\back_arrow_foreground.xml"
     },
     {
-        "merged": "edu.birzeit.app-merged_res-32:/layout_activity_destination.xml.flat",
-        "source": "edu.birzeit.app-main-34:/layout/activity_destination.xml"
+        "merged": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-merged_res-32:\\mipmap-xxhdpi_favourite_empty_round.png.flat",
+        "source": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-main-34:\\mipmap-xxhdpi\\favourite_empty_round.png"
+    },
+    {
+        "merged": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-merged_res-32:\\mipmap-xxxhdpi_favourite_filled.png.flat",
+        "source": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-main-34:\\mipmap-xxxhdpi\\favourite_filled.png"
+    },
+    {
+        "merged": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-merged_res-32:\\mipmap-anydpi-v26_favourite_filled_round.xml.flat",
+        "source": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-main-34:\\mipmap-anydpi-v26\\favourite_filled_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-merged_res-32:\\mipmap-anydpi-v26_favourite_empty.xml.flat",
+        "source": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-main-34:\\mipmap-anydpi-v26\\favourite_empty.xml"
     },
     {
         "merged": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-merged_res-32:\\layout_nav_header_main.xml.flat",
@@ -92,12 +124,24 @@
         "source": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-main-34:\\mipmap-mdpi\\ic_launcher.png"
     },
     {
+        "merged": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-merged_res-32:\\mipmap-xhdpi_favourite_filled_round.png.flat",
+        "source": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-main-34:\\mipmap-xhdpi\\favourite_filled_round.png"
+    },
+    {
+        "merged": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-merged_res-32:\\mipmap-mdpi_favourite_filled_round.png.flat",
+        "source": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-main-34:\\mipmap-mdpi\\favourite_filled_round.png"
+    },
+    {
         "merged": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-merged_res-32:\\mipmap-xxxhdpi_back_arrow_round.png.flat",
         "source": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-main-34:\\mipmap-xxxhdpi\\back_arrow_round.png"
     },
     {
         "merged": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-merged_res-32:\\layout_fragment_image.xml.flat",
         "source": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-main-34:\\layout\\fragment_image.xml"
+    },
+    {
+        "merged": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-merged_res-32:\\mipmap-xhdpi_favourite_filled.png.flat",
+        "source": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-main-34:\\mipmap-xhdpi\\favourite_filled.png"
     },
     {
         "merged": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-merged_res-32:\\mipmap-xhdpi_back_arrow_round.png.flat",
@@ -116,6 +160,10 @@
         "source": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-main-34:\\layout\\fragment_favorites.xml"
     },
     {
+        "merged": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-merged_res-32:\\mipmap-hdpi_favourite_filled.png.flat",
+        "source": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-main-34:\\mipmap-hdpi\\favourite_filled.png"
+    },
+    {
         "merged": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-merged_res-32:\\layout_fragment_profile.xml.flat",
         "source": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-main-34:\\layout\\fragment_profile.xml"
     },
@@ -132,12 +180,28 @@
         "source": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-main-34:\\mipmap-hdpi\\back_arrow.png"
     },
     {
+        "merged": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-merged_res-32:\\mipmap-xhdpi_favourite_empty.png.flat",
+        "source": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-main-34:\\mipmap-xhdpi\\favourite_empty.png"
+    },
+    {
         "merged": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-merged_res-32:\\mipmap-hdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-main-34:\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "edu.birzeit.app-merged_res-32:/navigation_mobile_navigation.xml.flat",
+        "source": "edu.birzeit.app-main-34:/navigation/mobile_navigation.xml"
+    },
+    {
+        "merged": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-merged_res-32:\\mipmap-mdpi_favourite_empty_round.png.flat",
+        "source": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-main-34:\\mipmap-mdpi\\favourite_empty_round.png"
+    },
+    {
         "merged": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-merged_res-32:\\mipmap-xxxhdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-main-34:\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-merged_res-32:\\mipmap-anydpi-v26_favourite_empty_round.xml.flat",
+        "source": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-main-34:\\mipmap-anydpi-v26\\favourite_empty_round.xml"
     },
     {
         "merged": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-merged_res-32:\\mipmap-mdpi_ic_launcher_round.png.flat",
@@ -172,20 +236,44 @@
         "source": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-main-34:\\mipmap-anydpi-v26\\back_arrow.xml"
     },
     {
+        "merged": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-merged_res-32:\\mipmap-mdpi_favourite_empty.png.flat",
+        "source": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-main-34:\\mipmap-mdpi\\favourite_empty.png"
+    },
+    {
+        "merged": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-merged_res-32:\\mipmap-hdpi_favourite_empty.png.flat",
+        "source": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-main-34:\\mipmap-hdpi\\favourite_empty.png"
+    },
+    {
         "merged": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-merged_res-32:\\mipmap-anydpi-v26_back_arrow_round.xml.flat",
         "source": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-main-34:\\mipmap-anydpi-v26\\back_arrow_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-merged_res-32:\\mipmap-xhdpi_favourite_empty_round.png.flat",
+        "source": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-main-34:\\mipmap-xhdpi\\favourite_empty_round.png"
     },
     {
         "merged": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-merged_res-32:\\menu_activity_main_drawer.xml.flat",
         "source": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-main-34:\\menu\\activity_main_drawer.xml"
     },
     {
+        "merged": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-merged_res-32:\\mipmap-xxhdpi_favourite_empty.png.flat",
+        "source": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-main-34:\\mipmap-xxhdpi\\favourite_empty.png"
+    },
+    {
         "merged": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-merged_res-32:\\mipmap-xhdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-main-34:\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-merged_res-32:\\mipmap-xxhdpi_favourite_filled.png.flat",
+        "source": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-main-34:\\mipmap-xxhdpi\\favourite_filled.png"
+    },
+    {
         "merged": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-merged_res-32:\\layout_activity_main.xml.flat",
         "source": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-main-34:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-merged_res-32:\\mipmap-hdpi_favourite_empty_round.png.flat",
+        "source": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-main-34:\\mipmap-hdpi\\favourite_empty_round.png"
     },
     {
         "merged": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-merged_res-32:\\mipmap-mdpi_back_arrow.png.flat",
@@ -196,8 +284,20 @@
         "source": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-main-34:\\mipmap-xxhdpi\\back_arrow.png"
     },
     {
+        "merged": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-merged_res-32:\\mipmap-anydpi-v26_favourite_filled.xml.flat",
+        "source": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-main-34:\\mipmap-anydpi-v26\\favourite_filled.xml"
+    },
+    {
+        "merged": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-merged_res-32:\\mipmap-xxxhdpi_favourite_filled_round.png.flat",
+        "source": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-main-34:\\mipmap-xxxhdpi\\favourite_filled_round.png"
+    },
+    {
         "merged": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-merged_res-32:\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-main-34:\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-merged_res-32:\\mipmap-hdpi_favourite_filled_round.png.flat",
+        "source": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-main-34:\\mipmap-hdpi\\favourite_filled_round.png"
     },
     {
         "merged": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-merged_res-32:\\layout_fragment_map.xml.flat",
@@ -206,5 +306,9 @@
     {
         "merged": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-merged_res-32:\\mipmap-xxhdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-main-34:\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-merged_res-32:\\mipmap-xxxhdpi_favourite_empty_round.png.flat",
+        "source": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-main-34:\\mipmap-xxxhdpi\\favourite_empty_round.png"
     }
 ]

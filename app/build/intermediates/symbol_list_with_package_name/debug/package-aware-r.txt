@@ -1446,6 +1446,8 @@ drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable dollar
+drawable favourite_empty_foreground
+drawable favourite_filled_foreground
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable ic_calendar_black_24dp
@@ -2038,6 +2040,10 @@ layout text_view_without_line_height
 menu activity_main_drawer
 mipmap back_arrow
 mipmap back_arrow_round
+mipmap favourite_empty
+mipmap favourite_empty_round
+mipmap favourite_filled
+mipmap favourite_filled_round
 mipmap ic_launcher
 mipmap ic_launcher_round
 navigation mobile_navigation

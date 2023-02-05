@@ -12,6 +12,7 @@ public class Destination implements Comparable<Destination>, Serializable {
     private double cost;
     private String img;
     private String description;
+    private boolean favorite;
 
     public Destination() {
     }
@@ -25,6 +26,7 @@ public class Destination implements Comparable<Destination>, Serializable {
         this.cost = cost;
         this.img = img;
         this.description = description;
+        this.favorite = false;
     }
 
     public String getCity() {
@@ -91,6 +93,13 @@ public class Destination implements Comparable<Destination>, Serializable {
         this.description = description;
     }
 
+    public boolean getFavorite() {
+        return favorite;
+    }
+
+    public void setFavorite(boolean favorite) {
+        this.favorite = favorite;
+    }
     @Override
     public String toString() {
         return "Destination{" +

@@ -35,10 +35,9 @@ public class DestinationActivity extends AppCompatActivity {
         Button mapButton = findViewById(R.id.map_button);
 
         // Initialize the fragments
-        descriptionFragment = new DescriptionFragment();
-        imageFragment = new ImageFragment();
-        mapFragment = new MapFragment();
-
+        descriptionFragment = DescriptionFragment.newInstance(destination.getDescription());
+        imageFragment = ImageFragment.newInstance(destination.getImg());
+        mapFragment = MapFragment.newInstance(destination.getLatitude(), destination.getLongitude());
         descriptionButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

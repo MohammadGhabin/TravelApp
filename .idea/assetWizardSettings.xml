@@ -74,13 +74,24 @@
                                 <PersistentState>
                                   <option name="children">
                                     <map>
+                                      <entry key="backgroundImage">
+                                        <value>
+                                          <PersistentState>
+                                            <option name="values">
+                                              <map>
+                                                <entry key="imagePath" value="C:\Program Files\Android\Android Studio\plugins\android\resources\images\asset_studio\ic_launcher_foreground.xml" />
+                                              </map>
+                                            </option>
+                                          </PersistentState>
+                                        </value>
+                                      </entry>
                                       <entry key="foregroundClipArt">
                                         <value>
                                           <PersistentState>
                                             <option name="values">
                                               <map>
-                                                <entry key="color" value="0d0d0e" />
-                                                <entry key="imagePath" value="C:\Users\v-mghabin\AppData\Local\Temp\baseline_arrow_back_24.xml" />
+                                                <entry key="color" value="4cfd01" />
+                                                <entry key="imagePath" value="C:\Users\v-mghabin\AppData\Local\Temp\baseline_favorite_border_24.xml" />
                                                 <entry key="scalingPercent" value="99" />
                                                 <entry key="trimmed" value="true" />
                                               </map>
@@ -93,7 +104,7 @@
                                           <PersistentState>
                                             <option name="values">
                                               <map>
-                                                <entry key="url" value="file:/$USER_HOME$/AppData/Local/Android/Sdk/icons/material/materialicons/arrow_back/baseline_arrow_back_24.xml" />
+                                                <entry key="url" value="file:/$USER_HOME$/AppData/Local/Android/Sdk/icons/material/materialicons/favorite_border/baseline_favorite_border_24.xml" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -138,7 +149,7 @@
                                   <option name="values">
                                     <map>
                                       <entry key="foregroundAssetType" value="CLIP_ART" />
-                                      <entry key="outputName" value="back_arrow" />
+                                      <entry key="outputName" value="favourite_empty" />
                                     </map>
                                   </option>
                                 </PersistentState>

@@ -9,6 +9,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
 
@@ -53,12 +54,6 @@ public class AllFragment extends Fragment {
                 Destination destination = destinationActivities.get(position);
                 Intent intent = new Intent(getContext(), DestinationActivity.class);
                 intent.putExtra("destination", (Serializable) destination);
-
-//                intent.putExtra("city", destination.getCity());
-//                intent.putExtra("description", destination.getDescription());
-//                intent.putExtra("image", destination.getImg());
-//                intent.putExtra("longitude", destination.getLongitude());
-//                intent.putExtra("latitude", destination.getLatitude());
                 getContext().startActivity(intent);
             }
         });

@@ -2,23 +2,18 @@ package edu.birzeit;
 
 import android.os.Bundle;
 import android.view.View;
-import android.view.Menu;
 import android.widget.TextView;
 
-import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.navigation.NavigationView;
 
 import androidx.appcompat.widget.Toolbar;
+import androidx.fragment.app.FragmentTransaction;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.appcompat.app.AppCompatActivity;
-
-import org.w3c.dom.Text;
-
-import edu.birzeit.databinding.ActivityNavigationDrawerBinding;
 
 public class NavigationDrawerActivity extends AppCompatActivity {
 
@@ -44,6 +39,10 @@ public class NavigationDrawerActivity extends AppCompatActivity {
                 .setDrawerLayout(drawer)
                 .build();
 
+        navigationView.getMenu().findItem(R.id.nav_logout).setOnMenuItemClickListener(menuItem -> {
+            finish();
+            return true;
+        });
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
         NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
         NavigationUI.setupWithNavController(navigationView, navController);
@@ -55,4 +54,5 @@ public class NavigationDrawerActivity extends AppCompatActivity {
         return NavigationUI.navigateUp(navController, mAppBarConfiguration)
                 || super.onSupportNavigateUp();
     }
+
 }

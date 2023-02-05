@@ -34,6 +34,10 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyA4CrDtoPKJi2KsRaYrZDKp4sh_vInBUWw" />
+
         <activity
             android:name="edu.birzeit.DestinationActivity"
             android:exported="false" >
@@ -68,7 +72,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <!-- Needs to be explicitly declared on P+ -->
+
+        <provider
+            android:name="com.squareup.picasso.PicassoProvider"
+            android:authorities="edu.birzeit.com.squareup.picasso"
+            android:exported="false" /> <!-- Needs to be explicitly declared on P+ -->
         <uses-library
             android:name="org.apache.http.legacy"
             android:required="false" />
