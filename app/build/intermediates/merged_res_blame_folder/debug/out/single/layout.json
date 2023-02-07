@@ -48,6 +48,10 @@
         "source": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-main-34:\\layout\\fragment_home.xml"
     },
     {
+        "merged": "edu.birzeit.app-mergeDebugResources-31:/layout/fragment_profile.xml",
+        "source": "edu.birzeit.app-main-34:/layout/fragment_profile.xml"
+    },
+    {
         "merged": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-mergeDebugResources-31:\\layout\\content_main.xml",
         "source": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-main-34:\\layout\\content_main.xml"
     },
@@ -56,12 +60,12 @@
         "source": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-main-34:\\layout\\activity_loginregistration.xml"
     },
     {
-        "merged": "edu.birzeit.app-mergeDebugResources-31:/layout/row.xml",
-        "source": "edu.birzeit.app-main-34:/layout/row.xml"
-    },
-    {
         "merged": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-mergeDebugResources-31:\\layout\\fragment_all.xml",
         "source": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-main-34:\\layout\\fragment_all.xml"
+    },
+    {
+        "merged": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-mergeDebugResources-31:\\layout\\row.xml",
+        "source": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-main-34:\\layout\\row.xml"
     },
     {
         "merged": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-mergeDebugResources-31:\\layout\\fragment_map.xml",
@@ -70,10 +74,6 @@
     {
         "merged": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-mergeDebugResources-31:\\layout\\fragment_profile.xml",
         "source": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-main-34:\\layout\\fragment_profile.xml"
-    },
-    {
-        "merged": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-mergeDebugResources-31:\\layout\\row.xml",
-        "source": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-main-34:\\layout\\row.xml"
     },
     {
         "merged": "C:\\Users\\v-mghabin\\.gradle\\daemon\\7.4\\edu.birzeit.app-mergeDebugResources-31:\\layout\\fragment_destination.xml",

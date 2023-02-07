@@ -1,5 +1,7 @@
 package edu.birzeit;
 
+import android.content.Context;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -40,6 +42,10 @@ public class NavigationDrawerActivity extends AppCompatActivity {
                 .build();
 
         navigationView.getMenu().findItem(R.id.nav_logout).setOnMenuItemClickListener(menuItem -> {
+            SharedPreferences sharedPreferences = getSharedPreferences("checkbox", Context.MODE_PRIVATE);
+            SharedPreferences.Editor editor = sharedPreferences.edit();
+            editor.putString("remember", "false");
+            editor.apply();
             finish();
             return true;
         });

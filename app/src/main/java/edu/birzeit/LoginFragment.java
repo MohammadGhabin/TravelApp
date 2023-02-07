@@ -1,7 +1,9 @@
 package edu.birzeit;
 
 import android.app.AlertDialog;
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.os.Bundle;
 import androidx.fragment.app.Fragment;
@@ -12,6 +14,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.CheckBox;
+import android.widget.CompoundButton;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -31,6 +34,13 @@ public class LoginFragment extends Fragment {
         rememberMe = view.findViewById(R.id.rememberMeCheckBox);
         login = view.findViewById(R.id.loginButton);
         goToRegisterPage = view.findViewById(R.id.goToRegisterPageTextView);
+
+        SharedPreferences sharedPreferences = getContext().getSharedPreferences("checkbox", Context.MODE_PRIVATE);
+        String checkbox = sharedPreferences.getString("remember", "");
+        if(checkbox.equals("true")){
+            Intent intent = new Intent(getContext(), NavigationDrawerActivity.class);
+            getContext().startActivity(intent);
+        }
 
         login.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -78,6 +88,24 @@ public class LoginFragment extends Fragment {
                     toast.show();
                 }
 
+            }
+        });
+
+        rememberMe.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                if (buttonView.isChecked()){
+                    SharedPreferences sharedPreferences = getContext().getSharedPreferences("checkbox", Context.MODE_PRIVATE);
+                    SharedPreferences.Editor editor = sharedPreferences.edit();
+                    editor.putString("remember", "true");
+                    editor.apply();
+                }
+                else{
+                    SharedPreferences sharedPreferences = getContext().getSharedPreferences("checkbox", Context.MODE_PRIVATE);
+                    SharedPreferences.Editor editor = sharedPreferences.edit();
+                    editor.putString("remember", "false");
+                    editor.apply();
+                }
             }
         });
 
